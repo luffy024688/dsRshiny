@@ -1,0 +1,8 @@
+options(stringsAsFactors = F)
+wordfinal <- read.csv("wordfinal.csv",fileEncoding = "Big-5")
+df.match <- read.csv("df.match.csv",fileEncoding = "Big-5")
+df.person.type <- read.csv("df.person.type.csv",fileEncoding = "Big-5")
+df.type <- read.csv("df.type.csv",fileEncoding = "Big-5")
+tdm <- read.csv("tdm.csv",fileEncoding = "Big-5")
+finalshort <- read.csv("11-finalshort.csv",fileEncoding = "Big-5")
+load("facebook.RData")
